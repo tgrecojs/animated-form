@@ -1,0 +1,127 @@
+$longform-font: "Grad";
+$title-one: "Adobe-Garamond-Pro";
+$dallas : "Grad-SC-OSF";
+html {
+    font-size: 16px;
+}
+h1 {
+    font-family: $title-one;
+    font-size: 2rem;
+    line-height: 1.2;
+}
+h2 {
+    font-family: $title-one;
+    font-size: 1.75rem;
+    line-height: 1.2;
+    color: white;
+    margin-bottom: 10px;
+}
+h3 {
+    font-family: $title-one;
+    font-size: 1.5rem;
+    line-height: 1.2;
+    margin-bottom: 15px;
+}
+p {
+    font-family: $longform-font;
+    font-size: 1rem;
+    line-height: 1.5;
+}
+p.sticky {
+    padding-top: 25px;
+}
+.navbar {
+    font-family: $longform-font;
+}
+li a {
+    color: white;
+}
+.title, .sticky {
+    text-align: center;
+}
+h2.form, p.form, p.lead {
+    padding-top: 10px;
+    padding-right: 10px;
+    color: black;
+}
+p > a {
+    color: black;
+}
+.tab-class {
+    font-family: $title-one;
+}
+.footer-text {
+    font-family: $title-one;
+    padding-top: 20px;
+    color: white;
+}
+.translator {
+    padding-top: 10px;
+    text-align: justify;
+    color: black;
+    text-indent: 30px;
+}
+tr {
+    color: white;
+    font-family: $title-one;
+}
+
+
+.form-heading {
+
+    color: black;
+
+}
+
+.form-group {
+
+    font-family: $title-one;
+    color: white;
+    margin-top: 5px;
+}
+
+#signup-form {
+
+    color: white;
+
+}
+
+label {
+
+
+    font-family: $title-one;
+    font-size: 1.125rem;
+    color: white;
+
+}
+
+#form-views > h3 {
+
+    color: white;
+
+}
+
+p.lead-phrase {
+
+    color: white;
+
+    a {
+
+        text-decoration: underline;
+
+        &:hover {
+
+            font-size: 1.125rem; 
+
+        }
+
+    }
+
+}
+
+.lead-heading {
+
+    text-decoration: underline;
+
+}
+

@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+
+    <!-- Font Awesome for nav-->
+    <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootswatch/3.1.1/darkly/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="stylesheets/styles.css">
+
+
+    <!-- JS -->
+    <!-- load angular, nganimate, and ui-router -->
+    <script src="//ajax.googleapis.com/ajax/libs/angularjs/1.2.16/angular.min.js"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/angular-ui-router/0.2.10/angular-ui-router.min.js"></script>
+    <script src="//ajax.googleapis.com/ajax/libs/angularjs/1.2.16/angular-animate.min.js"></script>
+
+    <!--Bower Scripts - Libs folder -->
+    <script src="libs/angular-messages/angular-messages.min.js"></script>
+
+    <!--End Bower Scripts -->
+    <!--Fonts -->
+    <script src="//use.typekit.net/tve0beh.js"></script>
+    <script>
+    try {
+        Typekit.load();
+    } catch (e) {}
+    </script>
+    <script src="app.js"></script>
+
+</head>
+
+<body ng-app="formApp">
+    <!-- NAVIGATION -->
+    <nav class="navbar navbar-default" role="navigation">
+        <div class="navbar-header">
+            <a class="navbar-brand links" ui-sref="#">AngularUI Router</a>
+        </div>
+        <ul class="nav navbar-nav pull-right">
+            <li><a class="links" ui-sref="home.welcome">Home</a>
+            </li>
+            <li><a class="links" ui-sref="form.profile">Contact Me</a>
+            </li>
+            <li><a class="links" href="http://bit.ly/TGlinkedin"><i class="fa fa-linkedin-square"></i></a>
+            </li>
+            <li><a class="links" href="https://twitter.com/sassmasterTG"><i class="fa fa-twitter"></i></a>
+            </li>
+        </ul>
+    </nav>
+
+    <!-- views will be injected here -->
+    <div id='layout'>
+
+        <div ui-view></div>
+
+        
+    <br>
+</div>
+
+
+
+</body>
+
+</html>

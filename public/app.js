@@ -55,18 +55,12 @@ formApp.config(function($stateProvider, $urlRouterProvider) {
         });
 
 
-    $urlRouterProvider.otherwise('/home/welcome');
+    $urlRouterProvider.otherwise('/form/profile');
 
 });
        
-    // catch all route
-    // send users to the form page 
- 
-// our controller for the form
-// =============================================================================
 formApp.controller('formController', function($scope) {
     
-    // we will store all of our form data in this object
     $scope.formData = {};
     
     // function to process the form
